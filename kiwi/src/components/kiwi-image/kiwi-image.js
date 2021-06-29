@@ -1,6 +1,5 @@
-import Kiwi from './todo.jpg';
+import Kiwi from './kiwi.jpg';
 import './kiwi-image.scss';
-
 
 class KiwiImage {
     render() {
@@ -9,9 +8,8 @@ class KiwiImage {
         img.alt = 'Kiwi';
         img.classList.add('kiwi-image');
 
-        const bodyDOMElement = document.querySelector('body');
-        bodyDOMElement.appendChild(img);
-
+        const bodyDomElement = document.querySelector('body');
+        bodyDomElement.appendChild(img);
     }
 }
 
